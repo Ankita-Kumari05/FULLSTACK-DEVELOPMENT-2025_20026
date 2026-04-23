@@ -1,0 +1,98 @@
+.job-details-page {
+  max-width: 750px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+.job-details-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: #3498db;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+  padding: 0;
+  transition: color 0.3s;
+}
+
+.back-btn:hover {
+  color: #2980b9;
+}
+
+.job-details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.job-details-header h2 {
+  font-size: 1.8rem;
+  color: #2c3e50;
+}
+
+.category-badge {
+  background-color: #eaf4ff;
+  color: #3498db;
+  padding: 0.3rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.job-info {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.job-info p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.job-description h3 {
+  font-size: 1.1rem;
+  color: #2c3e50;
+  margin-bottom: 0.7rem;
+}
+
+.job-description p {
+  color: #555;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.apply-btn {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 0.9rem;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.apply-btn:hover {
+  background-color: #219a52;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1.1rem;
+  color: #888;
+}
